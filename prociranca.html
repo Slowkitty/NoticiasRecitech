@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: whitesmoke;
+    }
+
+    header {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    nav {
+        background-color: rgb(13, 210, 224);
+        padding: 1px;
+    }
+
+    main {
+        background-color: whitesmoke;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgb(13, 210, 224);
+        width: 100%;
+        max-width: 800px;
+        margin: 20px auto;
+        justify-content: center;
+        text-align: center;
+        align-items: block;
+
+    }
+
+    aside{
+     position: absolute;
+     top: 75px;
+     right: 120px;
+     width: 100%;
+     max-width: 260px;
+    }
+
+    aside img{
+        width: 100%;
+        max-width: 260px;
+    }
+@media screen and (max-width: 1500px){
+    aside{
+        display: none;
+    }
+}
+
+
+    header img {
+        width: 100%;
+        max-width: 70px;
+        padding: 0;
+    }
+
+    main h1 {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    main p {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 50px;
+    }
+
+    main img {
+        border: 30px;
+        border-radius: 50px;
+        width: 100%;
+        max-width: 600px;
+        padding: 20px;
+
+
+    }
+
+    .comment-box {
+        margin: auto;
+        margin-bottom: 20px;
+        background-color: rgb(255, 255, 255);
+        background-size: 800px;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 500px;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 204, 255, 0.856);
+        position: relative;
+    }
+
+
+
+    .comment-box button {
+        color: white;
+        background-color: rgb(7, 6, 6);
+        border-radius: 10px;
+        margin: auto;
+
+    }
+
+    .comment-box button:hover {
+        background-color: #444546;
+    }
+
+
+    .comment-box textarea {
+        width: 100%;
+        max-width: 1000px;
+        height: 100px;
+        margin-bottom: 10px;
+        resize: none;
+    }
+
+    .comment-section {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        padding-top: 20px;
+        text-align: left;
+        align-items: center;
+    }
+
+    .comment {
+        background: none;
+        margin: auto;
+        text-align: left;
+
+    }
+
+
+    footer {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+
+        main {
+            padding: 0 10px;
+        }
+
+        .picture {
+            padding: 10px;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        main {
+            padding: 0 5px;
+        }
+
+        .picture img {
+            max-width: 100%;
+            min-width: 25%;
+        }
+    }
+</style>
+
+<header>
+    <picture>
+        <img src="/img/LOGO.png" alt="logo">
+    </picture>
+</header>
+
+<nav>
+</nav>
+
+<body>
+    <main>
+
+        <H1>Movimento pró criança</H1>
+        <section>
+            <picture>
+                <img src="https://movimentoprocrianca.org.br/v2/wp-content/uploads/2023/12/Organograma.png"
+                    alt="imagem">
+            </picture>
+
+            <p>Uma organização sem fins lucrativos fundada em 1993 pela Arquidiocese de Olinda e Recife que atua na
+                educação complementar, oferecendo às crianças, adolescentes e jovens reforço escolar, com apoio
+                pedagógico, psicossocial, além de outras oportunidades educativas em diversas áreas, dentre elas: Artes,
+                Esportes e Qualificação Profissional/Empregabilidade, no município de Recife e Região Metropolitana, com
+                apoio psicossocial extensivo aos pais e/ou responsáveis.</p>
+        </section>
+        <h2>O Movimento Pró-Criança</h2>
+        <section>
+            <p>Nestes anos de atuação, o Movimento Pró-Criança já beneficiou mais de 50 mil crianças, adolescentes,
+                jovens e suas famílias nas unidades Coelhos, Recife Antigo e Piedade através de atividades desenvolvidas
+                dentro de um itinerário formativo que contempla diversas áreas.</p>
+
+            <picture>
+                <img src="https://movimentoprocrianca.org.br/v2/wp-content/uploads/2023/12/Garota-MPC-2.png" alt="">
+            </picture>
+        </section>
+        <section>
+            <h2>Visão do Movimento Pró-Criança</h2>
+            <p>O Movimento Pró-Criança pretende consolidar um modelo de gestão participativa e o seu projeto político
+                pedagógico, com foco na Educação Complementar e nas ações empreendedoras na jurisdição da Arquidiocese
+                de Olinda e Recife.</p>
+
+                <a style="color: rgb(0, 0, 0);" href="https://movimentoprocrianca.org.br/v2/">Para mais informações sobre</a>
+        </section>
+
+        <aside>
+            <a href="bodycam.html"><img src="/img/1.png" alt="Imagem 1"></a>
+            <a href="polorecife.html"><img src="/img/2.png" alt="Imagem 2"></a>
+            <a href="paradas.html"><img src="/img/3.png" alt="Imagem 2"></a>
+            
+        </asid>
+
+    </main>
+
+   
+
+    <section>
+        <div class="comment-box">
+            <h2>Deixe seu comentário</h2>
+            <textarea id="comment-input" placeholder="Digite seu comentário aqui..."></textarea>
+            <button onclick="addComment()">Enviar</button>
+        </div>
+        <h2>Comentários</h2>
+        <div class="comment-section" id="comment-section">
+        </div>
+
+        <p>Fim dos comentários</p>
+    </section>
+
+</body>
+
+
+<footer>
+    <p>®ReciTech™</p>
+
+</footer>
+<script src="comentario.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
